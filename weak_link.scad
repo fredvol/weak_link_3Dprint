@@ -17,6 +17,8 @@
 *  GNU General Public License for more details.
 */ 
 
+// OpenScad version : 2021.01
+
 /*------------------Customizer View-------------------*/
 // preview[view:north, tilt:top]
 
@@ -58,7 +60,7 @@ module weak_link( internal_gap , length , height , wall ){
             union() {
                 //create base oblong structure
                 cube([dia,length,height], center);
-                translate ([0,length/2,0]) {cylinder(height,dia/2,dia/2,$fn=60, center);
+                translate ([0,length/2,0]) { cylinder(height,dia/2,dia/2,$fn=60, center);
                 }
                 translate ([0,-length/2,0]) {cylinder(height,dia/2,dia/2,$fn=60, center);
                 }
