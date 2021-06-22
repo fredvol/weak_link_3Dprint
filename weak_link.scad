@@ -28,10 +28,10 @@ nb_weak_link = 3 ;
 distance_object_mm = 2 ;
 
 
-internal_gap_mm = 4;
-length_mm = 25;
+internal_gap_mm = 5.9;
+length_mm = 50;
 height_mm = 4 ;
-wall_thickness_mm = 4;
+wall_thickness_mm = 5;
 
 /*-----------------------Execute----------------------*/
 echo("Weak link section ",wall_thickness_mm * height_mm* 2, "mm2");
