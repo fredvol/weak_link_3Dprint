@@ -26,14 +26,14 @@
 /*---------------------Parameters---------------------*/
 // Parameters in the execute section
 //
-nb_weak_link = 3 ;
+nb_weak_link = 2 ;
 distance_object_mm = 2 ;
 
 
 internal_gap_mm = 5.9;
-length_mm = 50;
-height_mm = 4 ;
-wall_thickness_mm = 5;
+length_mm = 40;
+height_mm = 2 ;
+wall_thickness_mm = 4;
 
 /*-----------------------Execute----------------------*/
 echo("Weak link section ",wall_thickness_mm * height_mm* 2, "mm2");
